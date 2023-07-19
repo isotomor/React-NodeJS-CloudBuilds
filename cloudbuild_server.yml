@@ -16,7 +16,7 @@ steps:
   entrypoint: bash
   args: [
     "-c",
-    "gcloud run deploy user-app-server 
+    "gcloud run deploy react-nodejs-cloudbuilds-server 
     --image=gcr.io/$PROJECT_ID/users-app-server:$COMMIT_SHA 
     --region=europe-west1 
     --platform=managed 
