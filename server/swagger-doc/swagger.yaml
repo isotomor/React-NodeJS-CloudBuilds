@@ -1,0 +1,68 @@
+swagger: "2.0"
+info:
+  title: API de Usuarios
+  version: 1.0.0
+tags:
+  - name: users
+    description: Operaciones relacionadas con usuarios
+paths:
+  /api/users:
+    get:
+      summary: Obtener usuarios de la base de datos
+      tags:
+        - users
+      responses:
+        "200":
+          description: Respuesta exitosa
+
+  /api/users/create:
+    post:
+      summary: Crear un nuevo usuario
+      tags:
+        - users
+      responses:
+        "200":
+          description: Respuesta exitosa
+
+  /api/users/{id}:
+    get:
+      summary: Obtener un usuario por ID
+      tags:
+        - users
+      parameters:
+        - name: id
+          in: path
+          description: ID del usuario a obtener
+          required: true
+          type: string
+      responses:
+        "200":
+          description: Respuesta exitosa
+
+    put:
+      summary: Actualizar un usuario existente por ID
+      tags:
+        - users
+      parameters:
+        - name: id
+          in: path
+          description: ID del usuario a actualizar
+          required: true
+          type: string
+      responses:
+        "200":
+          description: Respuesta exitosa
+
+    delete:
+      summary: Eliminar un usuario por ID
+      tags:
+        - users
+      parameters:
+        - name: id
+          in: path
+          description: ID del usuario a eliminar
+          required: true
+          type: string
+      responses:
+        "200":
+          description: Respuesta exitosa
