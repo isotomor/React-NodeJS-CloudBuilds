@@ -3,6 +3,8 @@
 El siguiente proyecto detalla los pasos para levantar una app con front-end en react y back-end en nodejs.   
 Además integra el despliegue automático del cliente y el servidor en Cloud Run a través de Cloud Build. 
 
+![React NodeJS Cloud Builds.png](React%20NodeJS%20Cloud%20Builds.png)
+
 ## Creación de usuarios con MERN Full Stack
 
 Este es un proyecto construido utilizando la pila MERN Full Stack, que incluye MongoDB, Express, React y Node.js. 
@@ -166,6 +168,10 @@ npm install
 ````bash
 npm run dev
 ```` 
+
+Si no nos funciona, una cosa que tendremos que hacer es cambiar la URL para apuntar al servidor que nos hemos creado: 
+
+![img.png](img/modificacion_url_backend.png)
 
 ### Endpoints generales de la aplicación:
 
