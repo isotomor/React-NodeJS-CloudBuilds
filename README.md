@@ -3,7 +3,7 @@
 El siguiente proyecto detalla los pasos para levantar una app con front-end en react y back-end en nodejs.   
 Además integra el despliegue automático del cliente y el servidor en Cloud Run a través de Cloud Build. 
 
-![React NodeJS Cloud Builds.png](React%20NodeJS%20Cloud%20Builds.png)
+![React NodeJS Cloud Builds.png](img/arquitectura.png)
 
 ## Creación de usuarios con MERN Full Stack
 
